@@ -1,12 +1,11 @@
 <script>
 	document.title = "My Website";
+	import Links from "./components/links.svelte";
 </script>
 
 <main>
 	<h1>Yo! i am RezHackXYZ!</h1>
-	<div>
-		<a href="https://github.com/RezHackXYZ">My Github</a>
-	</div>
+	<Links />
 </main>
 
 <style>
