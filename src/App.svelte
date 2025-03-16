@@ -1,12 +1,17 @@
 <script>
 	document.title = "My Website";
-	import Links from "./components/links.svelte";
+	import Skills from "./components/Skills.svelte";
 </script>
 
-<main>
-	<h1>Yo! i am RezHackXYZ!</h1>
-	<Links />
-</main>
+<div id="seperater">
+	<div id="text">
+		<h1>Yo! im RezHackXYZ!</h1>
+		<h5>Did you know i am better that you.</h5>
+	</div>
+	<div id="content">
+		<Skills />
+	</div>
+</div>
 
 <style>
 	:root {
@@ -18,5 +23,15 @@
 		display: grid;
 		place-content: center;
 		height: 100%;
+		width: 100%;
+	}
+
+	#seperater {
+		margin: 10px;
+		padding: 10px;
+	}
+
+	#text > * {
+		margin: 0;
 	}
 </style>
