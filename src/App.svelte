@@ -5,8 +5,8 @@
 
 <div id="seperater">
 	<div id="text">
-		<h1>Yo! im RezHackXYZ!</h1>
-		<h5>Did you know i am better that you.</h5>
+		<h1>Hey! im RezHackXYZ!</h1>
+		<h5>Im a 12 year old kid who loves tech and is learing web dev</h5>
 	</div>
 	<div id="content">
 		<Skills />
@@ -26,12 +26,22 @@
 		width: 100%;
 	}
 
+	#text {
+		margin: 0;
+		padding: 0;
+	}
+
 	#seperater {
 		margin: 10px;
 		padding: 10px;
 	}
 
 	#text > * {
-		margin: 0;
+		margin: 5px;
+	}
+
+	h5 {
+		color: #ffffff5e;
+		cursor: default;
 	}
 </style>

@@ -2,8 +2,10 @@
 	import Link from "./link.svelte";
 </script>
 
-<h4>My Skills</h4>
-<Link link="https://github.com/RezHackXYZ" name="github" icon="" />
+<div>
+	<h4>SKILLS</h4>
+	<Link link="https://github.com/RezHackXYZ" name="github" icon="" />
+</div>
 
 <style>
 	h4 {
