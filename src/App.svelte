@@ -1,16 +1,14 @@
 <script>
-	document.title = "My Website";
-	import Skills from "./components/Skills.svelte";
+	import Router from "svelte-spa-router";
+	import routes from "./routes.js";
 </script>
 
-<div id="seperater">
-	<div id="text">
-		<h1>Hey! im RezHackXYZ!</h1>
-		<h5>Im a 12 year old kid who loves tech and is learing web dev!</h5>
-	</div>
-	<div id="content">
-		<Skills />
-	</div>
+<div>
+	<nav>
+		<a href="#/">Home</a>
+		<a href="#/about">About</a>
+	</nav>
+	<Router {routes} />
 </div>
 
 <style>
@@ -25,23 +23,17 @@
 		height: 100%;
 		width: 100%;
 	}
-
-	#text {
-		margin: 0;
-		padding: 0;
+	nav {
+		margin-bottom: 20px;
 	}
 
-	#seperater {
-		margin: 10px;
-		padding: 10px;
+	nav a {
+		margin-right: 10px;
+		text-decoration: none;
+		color: white;
 	}
 
-	#text > * {
-		margin: 5px;
-	}
-
-	h5 {
-		color: #ffffff5e;
-		cursor: default;
+	nav a:hover {
+		text-decoration: underline;
 	}
 </style>
