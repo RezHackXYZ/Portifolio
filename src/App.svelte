@@ -6,7 +6,7 @@
 <div id="seperater">
 	<div id="text">
 		<h1>Hey! im RezHackXYZ!</h1>
-		<h5>Im a 12 year old kid who loves tech and is learing web dev</h5>
+		<h5>Im a 12 year old kid who loves tech and is learing web dev!</h5>
 	</div>
 	<div id="content">
 		<Skills />

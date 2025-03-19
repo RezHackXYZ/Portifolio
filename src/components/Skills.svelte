@@ -4,15 +4,25 @@
 
 <div>
 	<h4>SKILLS</h4>
-	<Link
-		link="https://github.com/RezHackXYZ"
-		logo="https://hc-cdn.hel1.your-objectstorage.com/s/v3/2e7eb204419b9de1821976278053c425402d12aa_svelte.svg"
-	/>
+	<div id="skills">
+		<Link
+			name="Svelte"
+			logo="https://hc-cdn.hel1.your-objectstorage.com/s/v3/2e7eb204419b9de1821976278053c425402d12aa_svelte.svg"
+		/>
+		<Link
+			name="Python"
+			logo="https://hc-cdn.hel1.your-objectstorage.com/s/v3/edd659d9d5d8e205e5ccab86fb25d48d22db0ceb_python_icon__black_and_white_.svg"
+		/>
+	</div>
 </div>
 
 <style>
-	h4 {
-		margin-bottom: 0;
+	#skills {
+		display: flex;
 	}
 
+	h4 {
+		margin-bottom: 0;
+		color: #b4b4b4;
+	}
 </style>
