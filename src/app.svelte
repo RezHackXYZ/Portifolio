@@ -1,14 +1,14 @@
 <script>
 	import Router from "svelte-spa-router";
 	import routes from "./routes.js";
+	import Me from "./navComponents/me.svelte";
 </script>
 
-<div>
-	<nav>
-		<a href="#/">Home</a>
-		<a href="#/about">About</a>
-	</nav>
-	<Router {routes} />
+<div id="root">
+	<div id="nav"><Me /></div>
+	<div id="content">
+		<Router {routes} />
+	</div>
 </div>
 
 <style>
@@ -18,22 +18,21 @@
 		font-family: "Iansui", cursive;
 		font-weight: 400;
 		font-style: normal;
-		display: grid;
-		place-content: center;
+	}
+
+	#root {
 		height: 100%;
-		width: 100%;
-	}
-	nav {
-		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
 	}
 
-	nav a {
-		margin-right: 10px;
-		text-decoration: none;
-		color: white;
+	#nav {
+		border-radius: 10px;
+		margin: 10px;
+		background-color: rgba(48, 48, 48, 0.369);
 	}
 
-	nav a:hover {
-		text-decoration: underline;
+	#content {
+		flex: 1;
 	}
 </style>
