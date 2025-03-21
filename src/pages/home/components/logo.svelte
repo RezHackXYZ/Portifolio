@@ -3,13 +3,7 @@
 </script>
 
 <div>
-	{#if props.link}
-		<a href={props.link} target="_blank">
-			<img src={props.logo} alt={props.name} />
-		</a>
-	{:else}
-		<img src={props.logo} alt={props.name} />
-	{/if}
+	<img src={props.logo} alt={props.name} />
 </div>
 
 <style>

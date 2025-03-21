@@ -1,1 +1,1 @@
-hi about me? um.. i am a orange /jk
+hi about me? um.. i am a robot 💀💀💀 /jk

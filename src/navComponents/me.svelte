@@ -13,11 +13,12 @@
 </div>
 
 <style>
-	@media screen and (max-width: 425px) {
+	@media screen and(max-width:700px) {
 		#text {
 			display: none;
 		}
 	}
+
 	#text {
 		margin: 0;
 		padding: 0;

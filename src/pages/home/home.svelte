@@ -1,4 +1,5 @@
 <script>
+	import Links from "./components/links.svelte";
 	document.title = "My Website";
 	import Skills from "./components/Skills.svelte";
 </script>
@@ -25,12 +26,12 @@
 		</div>
 	</div>
 	<div id="links">
-		<a href="#/aboutme">about me</a>
+		<Links />
 	</div>
 </div>
 
 <style>
-	@media screen and (max-width: 425px) {
+	@media screen and (max-width: 570px) {
 		#logo {
 			display: none;
 		}

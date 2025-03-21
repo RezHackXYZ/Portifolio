@@ -3,12 +3,11 @@
 	import routes from "./routes.js";
 	import Me from "./navComponents/me.svelte";
 	import { location } from "svelte-spa-router";
-	let currentRoute = $location;
 </script>
 
 <div id="root">
-	{#if currentRoute != "/"}
-		<div id="nav"><Me /></div>
+	{#if $location !== "/"}
+		<div id="nav"><Me /><a href="#/">home</a></div>
 	{/if}
 	<div id="content">
 		<Router {routes} />
@@ -35,6 +34,8 @@
 		margin: 10px;
 		width: calc(100% - 20px);
 		background-color: rgba(48, 48, 48, 0.369);
+		display: flex;
+		justify-content: space-between;
 	}
 
 	#content {
