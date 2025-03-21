@@ -25,9 +25,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="links">
-		<Links />
-	</div>
+	<Links />
 </div>
 
 <style>
@@ -52,6 +50,10 @@
 
 	#seperater {
 		display: flex;
+		background-color: #0f0f0f;
+		padding: 10px;
+		margin: 10px;
+		border-radius: 30px;
 	}
 
 	#right {
@@ -59,7 +61,7 @@
 	}
 
 	#logo {
-		height: 150px;
+		height: 140px;
 		padding: 10px;
 		border-radius: 20%;
 	}
