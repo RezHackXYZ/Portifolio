@@ -22,10 +22,13 @@
      * Typecheck JS in `.svelte` and `.js` files by default.
      * Disable this if you'd like to use dynamic types.
      */
-    "checkJs": true
+    "checkJs": true,
+    "types": ["svelte", "estree"]
   },
   /**
    * Use global.d.ts instead of compilerOptions.types
    * to avoid limiting type declarations.
    */
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"],
+  "exclude": ["node_modules/**/*", "node_modules/.svelte2tsx-language-server-files/**/*"]
 }

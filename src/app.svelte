@@ -2,14 +2,14 @@
 	import Router from "svelte-spa-router";
 	import routes from "./routes.js";
 	import Me from "./navComponents/me.svelte";
-	let currentRoute;
-	const unsubscribe = routes.subscribe((value) => {
-		currentRoute = value;
-	});
+	import { location } from "svelte-spa-router";
+	let currentRoute = $location;
 </script>
 
 <div id="root">
-	<div id="nav"><Me /> currentRoute is {currentRoute}</div>
+	{#if currentRoute != "/"}
+		<div id="nav"><Me /></div>
+	{/if}
 	<div id="content">
 		<Router {routes} />
 	</div>
@@ -33,9 +33,8 @@
 	#nav {
 		border-radius: 10px;
 		margin: 10px;
+		width: calc(100% - 20px);
 		background-color: rgba(48, 48, 48, 0.369);
-		display: flex;
-		justify-content: space-between;
 	}
 
 	#content {

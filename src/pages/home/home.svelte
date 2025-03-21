@@ -32,6 +32,7 @@
 			display: none;
 		}
 	}
+	
 	#root {
 		display: flex;
 		justify-content: center;
