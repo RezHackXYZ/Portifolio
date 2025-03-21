@@ -24,6 +24,9 @@
 			</div>
 		</div>
 	</div>
+	<div id="links">
+		<a href="#/aboutme">about me</a>
+	</div>
 </div>
 
 <style>
@@ -32,9 +35,10 @@
 			display: none;
 		}
 	}
-	
+
 	#root {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		height: 100%;
