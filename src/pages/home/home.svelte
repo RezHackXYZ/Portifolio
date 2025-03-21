@@ -5,27 +5,30 @@
 </script>
 
 <div id="root">
-	<div id="seperater">
-		<div>
-			<img
-				id="logo"
-				src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/0ec4bfb7eea37c2d45276ce04276da40533b6d05_group_1__1_.svg"
-				alt="RezHackXYZ"
-			/>
-		</div>
-		<div id="right">
-			<div id="text">
-				<h1>Hey! im RezHackXYZ!</h1>
-				<h5>
-					Im a 12 year old kid who loves tech and is learing web dev!
-				</h5>
+	<div>
+		<div id="seperater">
+			<div>
+				<img
+					id="logo"
+					src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/0ec4bfb7eea37c2d45276ce04276da40533b6d05_group_1__1_.svg"
+					alt="RezHackXYZ"
+				/>
 			</div>
-			<div id="content">
-				<Skills />
+			<div id="right">
+				<div id="text">
+					<h1>Hey! im RezHackXYZ!</h1>
+					<h5>
+						Im a 12 year old kid who loves tech and is learing web
+						dev!
+					</h5>
+				</div>
+				<div id="content">
+					<Skills />
+				</div>
 			</div>
 		</div>
+		<Links />
 	</div>
-	<Links />
 </div>
 
 <style>
@@ -36,10 +39,8 @@
 	}
 
 	#root {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		display: grid;
+		place-items: center;
 		height: 100%;
 	}
 

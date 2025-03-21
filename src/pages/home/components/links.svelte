@@ -4,6 +4,9 @@
 
 <div id="root">
 	<Link link="#/aboutme" text="About Me" />
+	<Link link="#/aboutme" text="About Me" />
+	<Link link="#/aboutme" text="About Me" />
+	<Link link="#/aboutme" text="About Me" />
 </div>
 
 <style>
@@ -13,5 +16,12 @@
 		padding: 10px;
 		margin: 10px;
 		border-radius: 30px;
+		width: fit-content;
+	}
+
+	@media screen and (max-width: 380px) {
+		#root {
+			flex-direction: column;
+		}
 	}
 </style>
