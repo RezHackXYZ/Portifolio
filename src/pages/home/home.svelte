@@ -33,8 +33,12 @@
 
 <style>
 	@media screen and (max-width: 570px) {
+		#seperater {
+			flex-direction: column;
+		}
 		#logo {
-			display: none;
+			height: 80px !important;
+			padding-bottom: 0 !important;
 		}
 	}
 
@@ -64,14 +68,17 @@
 			-15px 20px 0 5px #ffffff;
 	}
 
-	#seperater:hover {
-		transform: translate(10px, -5px);
-		box-shadow:
-			-25px 25px 0 4px #202020,
-			-25px 25px 0 5px #ffffff;
+	@media screen and (min-width: 800px) {
+		#seperater:hover {
+			transform: translate(10px, -5px);
+			box-shadow:
+				-25px 25px 0 4px #202020,
+				-25px 25px 0 5px #ffffff;
+		}
 	}
 
 	#right {
+		padding-top: 0 !important;
 		padding: 10px;
 	}
 

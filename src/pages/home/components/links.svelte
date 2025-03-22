@@ -26,15 +26,17 @@
 		border-radius: 10px;
 		transition: all 0.1s linear;
 		box-shadow:
-			-15px 10px 0 4px #202020,
-			-15px 10px 0 5px #ffffff;
+			-15px 15px 0 4px #202020,
+			-15px 15px 0 5px #ffffff;
 	}
 
-	#root:hover {
-		transform: translate(10px, -5px);
-		box-shadow:
-			-25px 15px 0 4px #202020,
-			-25px 15px 0 5px #ffffff;
+	@media screen and (min-width: 800px) {
+		#root:hover {
+			transform: translate(10px, -5px);
+			box-shadow:
+				-25px 20px 0 4px #202020,
+				-25px 20px 0 5px #ffffff;
+		}
 	}
 
 	@media screen and (max-width: 380px) {

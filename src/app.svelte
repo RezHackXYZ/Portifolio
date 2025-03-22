@@ -18,8 +18,9 @@
 	:root {
 		background-color: black;
 		color: white;
-		font-family: "Iansui", cursive;
-		font-weight: 400;
+		font-family: "Inter", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 200;
 		font-style: normal;
 	}
 
