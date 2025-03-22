@@ -45,16 +45,30 @@
 	}
 
 	#text {
-		margin: 0;
-		padding: 0;
+		margin: none;
+		padding: none;
 	}
 
 	#seperater {
 		display: flex;
 		background-color: #0f0f0f;
+		outline: rgb(138, 138, 138) 3px solid;
 		padding: 10px;
 		margin: 10px;
-		border-radius: 30px;
+		margin-bottom: 50px;
+		margin-left: 30px;
+		border-radius: 10px;
+		transition: all 0.1s linear;
+		box-shadow:
+			-15px 20px 0 4px #202020,
+			-15px 20px 0 5px #ffffff;
+	}
+
+	#seperater:hover {
+		transform: translate(10px, -5px);
+		box-shadow:
+			-25px 25px 0 4px #202020,
+			-25px 25px 0 5px #ffffff;
 	}
 
 	#right {
