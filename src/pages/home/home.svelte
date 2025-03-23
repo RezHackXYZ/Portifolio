@@ -32,16 +32,6 @@
 </div>
 
 <style>
-	@media screen and (max-width: 570px) {
-		#seperater {
-			flex-direction: column;
-		}
-		#logo {
-			height: 80px !important;
-			padding-bottom: 0 !important;
-		}
-	}
-
 	#root {
 		display: grid;
 		place-items: center;
@@ -86,6 +76,15 @@
 		height: 140px;
 		padding: 10px;
 		border-radius: 20%;
+	}
+	@media screen and (max-width: 700px) {
+		#seperater {
+			flex-direction: column;
+		}
+		#logo {
+			height: 80px;
+			padding-bottom: 0;
+		}
 	}
 
 	#text > * {

@@ -13,7 +13,7 @@
 </div>
 
 <style>
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 750px) {
 		#text {
 			display: none;
 		}

@@ -1,5 +1,6 @@
 <script>
 	import Router from "svelte-spa-router";
+	import LinksForNav from "./navComponents/linksForNav.svelte";
 	import routes from "./routes.js";
 	import Me from "./navComponents/me.svelte";
 	import { location } from "svelte-spa-router";
@@ -7,7 +8,7 @@
 
 <div id="root">
 	{#if $location !== "/"}
-		<div id="nav"><Me /><a href="#/">home</a></div>
+		<div id="nav"><Me /><LinksForNav /></div>
 	{/if}
 	<div id="content">
 		<Router {routes} />
@@ -18,6 +19,9 @@
 	:root {
 		background-color: black;
 		color: white;
+	}
+
+	* {
 		font-family: "Inter", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 200;
