@@ -4,9 +4,6 @@
 
 <div id="root">
 	<Link link="#/aboutme" text="About Me" />
-	<Link link="#/aboutme" text="About Me" />
-	<Link link="#/aboutme" text="About Me" />
-	<Link link="#/aboutme" text="About Me" />
 </div>
 
 <style>
