@@ -22,13 +22,22 @@
 		margin-left: 0px;
 		margin-right: 17px;
 		background-color: #0f0f0f;
-        color: aliceblue;
+		color: aliceblue;
+		border: none;
 
 		outline: rgb(138, 138, 138) 3px solid;
 		border-radius: 10px;
 		transition: all 0.1s linear;
 		box-shadow:
-			-5px 3px 0 4px #202020,
+			-5px 3px 0 2px #202020,
 			-5px 3px 0 3px #ffffff;
+	}
+	@media screen and (min-width: 800px) {
+		button:hover {
+			transform: translate(4px, -3px);
+			box-shadow:
+				-9px 6px 0 2px #202020,
+				-9px 6px 0 3px #ffffff;
+		}
 	}
 </style>

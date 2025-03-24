@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<img src={props.logo} alt={props.name} />
+	<img src={props.logo} alt="one of my skils logo" />
 </div>
 
 <style>

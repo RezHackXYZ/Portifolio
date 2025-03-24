@@ -35,14 +35,12 @@
 		height: 56px;
 		overflow: hidden;
 		border: none;
-		border-bottom: #363636 2px solid;
 		border-radius: 5px;
 		color: #fff;
 		background: none;
 		position: relative;
 		padding-bottom: 2em;
 		cursor: pointer;
-        
 		font-family: "Inter", sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 200;
