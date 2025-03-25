@@ -24,11 +24,5 @@
      */
     "checkJs": true,
     "types": ["svelte", "estree"]
-  },
-  /**
-   * Use global.d.ts instead of compilerOptions.types
-   * to avoid limiting type declarations.
-   */
-  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"],
-  "exclude": ["node_modules/**/*", "node_modules/.svelte2tsx-language-server-files/**/*"]
+  }
 }
