@@ -20,9 +20,9 @@
 	}
 
 	* {
-		font-family: "Inter", sans-serif;
+		font-family: "Funnel Display", sans-serif;
 		font-optical-sizing: auto;
-		font-weight: 200;
+		font-weight: 300;
 		font-style: normal;
 	}
 

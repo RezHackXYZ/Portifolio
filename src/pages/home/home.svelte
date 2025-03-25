@@ -1,3 +1,7 @@
+<script>
+	import Links from "./links.svelte";
+</script>
+
 <div id="root">
 	<div id="me">
 		<img
@@ -12,7 +16,7 @@
 			</h5>
 		</div>
 	</div>
-	<div id="links"></div>
+	<div id="links"><Links /></div>
 </div>
 
 <style>
