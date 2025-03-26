@@ -24,10 +24,8 @@
 
 <style>
 	#root {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		display: grid;
+		place-content: center;
 		height: 100%;
 		margin: 0px;
 	}
@@ -36,11 +34,6 @@
 		display: flex;
 		margin: 10px;
 		margin-bottom: 20px;
-	}
-	@media screen and (max-width: 700px) {
-		#me {
-			flex-direction: column;
-		}
 	}
 
 	#links {
@@ -56,9 +49,8 @@
 		font-size: 50px;
 	}
 	#pfp {
-		width: 100px;
-		height: 100px;
-		border-radius: 7px;
+		height: 85px;
+		border-radius: 10px;
 	}
 	#boutMe {
 		margin: 0px;

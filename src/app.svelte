@@ -2,15 +2,20 @@
 	import Router from "svelte-spa-router";
 	import { location } from "svelte-spa-router";
 	import Home from "./pages/home/home.svelte";
-	
+	import Aboutme from "./pages/about-me/aboutme.svelte";
+	import Contactme from "./pages/contact-me/contactme.svelte";
+	import Nav from "./nav.svelte";
+
 	let routes = {
 		"/": Home,
+		"/aboutme": Aboutme,
+		"/contactme": Contactme,
 	};
 </script>
 
 <div id="root">
 	{#if $location !== "/"}
-		<div id="nav">sorry no nav yet</div>
+		<Nav />
 	{/if}
 	<div id="content">
 		<Router {routes} />
@@ -35,15 +40,6 @@
 		display: flex;
 		flex-direction: column;
 		margin: 0;
-	}
-
-	#nav {
-		border-radius: 10px;
-		margin: 10px;
-		width: calc(100% - 20px);
-		background-color: rgba(48, 48, 48, 0.369);
-		display: flex;
-		justify-content: space-between;
 	}
 
 	#content {

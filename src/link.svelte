@@ -4,7 +4,7 @@
 
 <div id="root">
 	<a href={props.link}>
-		{@html props.logo}&nbsp;
+		<img src={props.logo} alt="logo" />&nbsp;
 		<h3>{props.text}</h3>
 		<svg
 			stroke-width="2"
@@ -56,5 +56,10 @@
 		transform: rotate(-45deg);
 		width: 20px;
 		opacity: 1;
+	}
+
+	img {
+		width: 24px;
+		height: 24px;
 	}
 </style>
