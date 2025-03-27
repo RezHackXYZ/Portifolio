@@ -32,7 +32,7 @@
 		display: flex;
 		margin: 10px;
 	}
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 1000px) {
 		#text {
 			display: none;
 		}
