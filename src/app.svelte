@@ -1,14 +1,21 @@
 <script>
 	import Router from "svelte-spa-router";
-	import LinksForNav from "./navComponents/linksForNav.svelte";
-	import routes from "./routes.js";
-	import Me from "./navComponents/me.svelte";
 	import { location } from "svelte-spa-router";
+	import Home from "./pages/home/home.svelte";
+	import Aboutme from "./pages/about-me/aboutme.svelte";
+	import Contactme from "./pages/contact-me/contactme.svelte";
+	import Nav from "./nav.svelte";
+
+	let routes = {
+		"/": Home,
+		"/aboutme": Aboutme,
+		"/contactme": Contactme,
+	};
 </script>
 
 <div id="root">
 	{#if $location !== "/"}
-		<div id="nav"><Me /><LinksForNav /></div>
+		<Nav />
 	{/if}
 	<div id="content">
 		<Router {routes} />
@@ -22,9 +29,9 @@
 	}
 
 	* {
-		font-family: "Inter", sans-serif;
+		font-family: "Funnel Display", sans-serif;
 		font-optical-sizing: auto;
-		font-weight: 200;
+		font-weight: 300;
 		font-style: normal;
 	}
 
@@ -32,15 +39,7 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-	}
-
-	#nav {
-		border-radius: 10px;
-		margin: 10px;
-		width: calc(100% - 20px);
-		background-color: rgba(48, 48, 48, 0.369);
-		display: flex;
-		justify-content: space-between;
+		margin: 0;
 	}
 
 	#content {
