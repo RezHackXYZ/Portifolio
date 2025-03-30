@@ -1,5 +1,5 @@
 <script>
-    import Links from "./links.svelte";
+	import Links from "./links.svelte";
 </script>
 
 <div id="root">
@@ -9,35 +9,36 @@
 			alt="my pfp"
 			id="pfp"
 		/>
-		<div id="text">
-			<h1 id="YoHeading">Yo, Im RezHackXYZ!</h1>
-			<h5 id="boutMe">
-				Im a 12 year old kid who loves tech and is learing web dev!!!!!
-			</h5>
-		</div>
-	</div><Links />
-
+		<h1 id="YoHeading">RezHackXYZ!</h1>
+	</div>
+	<Links />
 </div>
 
 <style>
 	#root {
 		display: flex;
-        justify-content: space-between;
+		justify-content: space-between;
 		margin: 10px;
 		border-radius: 10px;
-
+	}
+	@media (max-width: 620px) {
+		#root {
+			flex-direction: column;
+			align-items: center;
+		}
+		#YoHeading {
+			text-align: center;
+		}
+		#pfp {
+			height: 30px;
+		}
 	}
 
 	#me {
 		display: flex;
 		margin: 10px;
+		align-items: center;
 	}
-	@media screen and (max-width: 1000px) {
-		#text {
-			display: none;
-		}
-	}
-
 	#YoHeading {
 		margin: 0px;
 		margin-left: 10px;
@@ -45,13 +46,7 @@
 		font-size: 30px;
 	}
 	#pfp {
-		height: 60px;
+		height: 40px;
 		border-radius: 10px;
-	}
-	#boutMe {
-		margin: 0px;
-		margin-left: 10px;
-		color: #919191;
-		font-size: 15px;
 	}
 </style>
