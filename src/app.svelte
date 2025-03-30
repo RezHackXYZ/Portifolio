@@ -5,11 +5,13 @@
 	import Aboutme from "./pages/about-me/aboutme.svelte";
 	import Contactme from "./pages/contact-me/contactme.svelte";
 	import Nav from "./nav.svelte";
+	import Projects from "./pages/projects/projects.svelte";
 
 	let routes = {
 		"/": Home,
 		"/aboutme": Aboutme,
 		"/contactme": Contactme,
+		"/projects": Projects,
 	};
 </script>
 
