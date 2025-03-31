@@ -3,8 +3,53 @@
 		{
 			Name: "Project 1",
 			Description: "This is a description of project 1",
-			Image: "https://placehold.co/600x400",
+			Image: "https://placehold.co/250x150",
 			Images: [
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+			],
+		},
+		{
+			Name: "Project 1",
+			Description: "This is a description of project 1",
+			Image: "https://placehold.co/250x150",
+			Images: [
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+			],
+		},
+		{
+			Name: "Project 1",
+			Description: "This is a description of project 1",
+			Image: "https://placehold.co/250x150",
+			Images: [
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+			],
+		},
+		{
+			Name: "Project 1",
+			Description: "This is a description of project 1",
+			Image: "https://placehold.co/250x150",
+			Images: [
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+				"https://placehold.co/400",
+			],
+		},
+		{
+			Name: "Project 1",
+			Description: "This is a description of project 1",
+			Image: "https://placehold.co/250x150",
+			Images: [
+				"https://placehold.co/400",
 				"https://placehold.co/400",
 				"https://placehold.co/400",
 				"https://placehold.co/400",
@@ -17,10 +62,10 @@
 	<h1>My Projects</h1>
 	<div id="grid">
 		{#each Projects as Project}
-			<div id="project-card">
+			<div class="project-card">
 				<h2>{Project.Name}</h2>
 				<p>{Project.Description}</p>
-				<div id="image-gallery">
+				<div class="image-gallery">
 					{#each Project.Images as Image}
 						<img
 							class="gallery-image"
@@ -42,15 +87,41 @@
 		margin: 0;
 		align-items: center;
 	}
-	h2,p {
+	h2,
+	p {
 		margin: 0;
 	}
-	#grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-		grid-gap: 20px;
+
+	p {
+		color: #818181;
 	}
-	#image-gallery {
+	#grid {
 		display: flex;
+		flex-wrap: wrap;
+		max-width: 1200px;
+		justify-content: center;
+	}
+
+	.project-card {
+		border: 3px solid #f0f0f0;
+		width: 250px;
+		margin: 10px;
+		padding: 5px;
+		padding-bottom: 0px;
+	}
+	.image-gallery {
+		display: flex;
+		gap: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.gallery-image {
+		width: 50px;
+		height: 50px;
+		object-fit: cover;
+	}
+	.main-image {
+		height: 150px;
+		width: 250px;
 	}
 </style>
