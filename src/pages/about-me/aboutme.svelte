@@ -31,7 +31,7 @@
 			alt="JavaScript"
 		/>
 		<img
-			src="https://img.shields.io/badge/Basic%20Python-%2320232a.svg?style=for-the-badge&logo=python"
+			src="https://img.shields.io/badge/Python-%2320232a.svg?style=for-the-badge&logo=python"
 			alt="Python"
 		/>
 		<img
@@ -54,16 +54,8 @@
 			alt="Github"
 		/>
 		<img
-			src="https://img.shields.io/badge/GitHub%20Copilot-%2320232a.svg?style=for-the-badge&logo=githubcopilot"
-			alt="GitHub Copilot"
-		/>
-		<img
-			src="https://img.shields.io/badge/Brave%20Browser-%2320232a.svg?style=for-the-badge&logo=brave"
-			alt="brave Browser"
-		/>
-		<img
-			src="https://img.shields.io/badge/raspberry pi 5-%2320232a.svg?style=for-the-badge&logo=raspberrypi&logoColor=ff0000"
-			alt="rpi5"
+			src="https://img.shields.io/badge/raspberry pi 5 (yes as my pc)-%2320232a.svg?style=for-the-badge&logo=raspberrypi&logoColor=ff0000"
+			alt="rpi5 (yes as my pc)"
 		/>
 		<img
 			src="https://img.shields.io/badge/Debian-%2320232a.svg?style=for-the-badge&logo=Debian"
