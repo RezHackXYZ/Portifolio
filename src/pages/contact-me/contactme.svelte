@@ -23,8 +23,8 @@
 				logo="https://hc-cdn.hel1.your-objectstorage.com/s/v3/2d9cda3e81fcded02202a700e5e3bbc4b908b05d_group_1__1_.svg"
 			/>
 			<Link
-				link="mailto:hi@rezhack.xyz"
-				text="Email - hi@rezhack.xyz"
+				link="mailto:rhythm.upa@gmail.com"
+				text="Email - rhythm.upa@gmail.com"
 				logo="https://hc-cdn.hel1.your-objectstorage.com/s/v3/b9d8a2dc71ce904752fe9257ab095c12b8c66e71_forward_to_inbox_24dp_e3e3e3_fill0_wght400_grad0_opsz24.svg"
 			/>
 		</div>
