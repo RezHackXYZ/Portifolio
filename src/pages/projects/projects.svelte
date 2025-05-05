@@ -26,7 +26,7 @@
 		{
 			Name: "ClassRoomStuff",
 			Description:
-				"[WIP] A collection of tools, games, and more — for any classroom!",
+				"[WIP] A collection of tools, games, etc - for any classroom!",
 			Image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e060bcaf74865f953fed5e88ae5f24020598d814_image.png",
 			Images: ["Javascript", "svelte", "vite"],
 			Link: "https://edu.rezhack.xyz/",
