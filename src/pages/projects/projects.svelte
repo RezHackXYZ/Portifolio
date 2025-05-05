@@ -10,17 +10,10 @@
 		{
 			Name: "The Hackers Music",
 			Description:
-				"[WIP] A better music player with cleaner and simpler UI!",
-			Image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/250744f62ebfac41492f2522a76d6a5224c5496b_image.png",
+				"A better music player with cleaner and simpler UI!",
+			Image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b86072be656a86b466e50837380eb952543c2795_group_16.svg",
 			Images: ["Javascript", "svelte", "vite", "youtube"],
 			Link: "https://music.rezhack.xyz",
-		},
-		{
-			Name: "Svelte + Vite Start",
-			Description: "A start for Svelte + Vite projects for anyone",
-			Image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/8c4a1df88145398177630a61577886cfaa09a9c0_image.png",
-			Images: ["Javascript", "svelte", "vite"],
-			Link: "https://github.com/RezHackXYZ/svelte-vite-tempelate",
 		},
 		{
 			Name: "Midnight Search",
@@ -31,19 +24,19 @@
 			Link: "https://github.com/RezHackXYZ/Midnight-Search",
 		},
 		{
-			Name: "Classroom Wordle",
+			Name: "ClassRoomStuff",
 			Description:
-				"[WIP] Wordle for classrooms with infinite tries, and AI help!",
+				"[WIP] A collection of awesome tools, games, and more — for any classroom!",
 			Image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e03f15a6a249aa462cd60ecc9f3f95f237842c1d_image.png",
-			Images: ["Javascript", "svelte", "vite", "googlegemini"],
-			Link: "https://github.com/RezHackXYZ/school-wordle",
+			Images: ["Javascript", "svelte", "vite"],
+			Link: "https://edu.rezhack.xyz/",
 		},
 		{
 			Name: "Rich/Poor",
 			Description:
 				"My submission for <a href='https://hack.club/swirl'>Swirl</a>, a free way to get rich or poor!",
 			Image: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/dd52e91795308d5703434c5f69108c8454cf7a84_image.png",
-			Images: ["Javascript", "svelte", "vite"],
+			Images: ["Javascript", "html5", "css"],
 			Link: "https://rezhackxyz.github.io/swirl-submition/",
 		},
 	];
